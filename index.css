@@ -1,10 +1,24 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 
-@media (min-width: 500px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 1200px) {
     .hide-ipad {
       display: none;
     }
+}
+
+@media (max-width: 500px) {
+  #menu {
+    font-size: small;
+  }
+
+  #menu-medium {
+    font-size: medium;
+  }
+
+  #menu-large {
+    font-size: large;
+  }
 }
 
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */

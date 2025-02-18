@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   <div class="w3-bar w3-padding w3-card" style="letter-spacing:4px;background-color: #37b6ff;">
     <a href="#home" class="w3-bar-item w3-button">McLauren BBQ</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small" style="display;">
+    <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">About</a>
       <a href="#menu" class="w3-bar-item w3-button">Menu</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
@@ -34,12 +34,12 @@ h1, h2, h3, h4, h5, h6 {
 </header>
 
   <!-- About Section -->
-  <div class="w3-row w3-padding-64 w3-hide-small" style="background-color:#df0000; display: flex; justify-content: space-around; align-items: center;" id="about">
+  <div class="w3-hide-small" style="background-color:#df0000; display: flex; justify-content:center; align-items: center; padding: 1rem 1rem 1rem 1rem">
     <div class="hide-ipad" style="margin: 2%;">
-      <img src="jacob-stone-OGUAm5YUoyc-unsplash.jpg" class="w3-round w3-image" alt="Table Setting" width="700" style="border-radius: 25px;">
+      <img src="jacob-stone-OGUAm5YUoyc-unsplash.jpg" alt="Table Setting"  height="500px" style="border-radius: 25px;">
     </div>
 
-    <div  class="w3-col m6" style="background-color: yellow; padding: 1%; border-radius: 25px; display: flex; align-items: center; flex-direction: column;">
+    <div class="w3-col l6 w3-padding-large" style="background-color: yellow; border-radius: 25px; display: flex; align-items: center; flex-direction: column;">
       <h1 class="w3-center">About McLauren BBQ Catering</h1>
       <p class="w3-large">McLauren BBQ is a family owned and operated catering company based out of Detroit Michigan.
       We provide catering services to the greater Detroit area for weddings, graduations, retirement parties, birthdays, and any event were expectional BBQ is a must!</p>
@@ -47,38 +47,38 @@ h1, h2, h3, h4, h5, h6 {
       <p class="w3-large"><em>Making the best BBQ in southeast Michigan without cutting corner.</em></p>
       <p class="w3-large">Our BBQ is made with the highest quality meats, natural seasonings, and narturally seasoned, locally sourced wood.
         We hope you love our BBQ with as much love as we put into every cook.
-        We are continually commited to deliver more expectional food, but an experience that will be rememebered for years.
+        We are continually commited to delivering more than expectional food, but an experience that will be rememebered for years.
         Please contact us and let us cater your next event!
       </p>
     </div>
   </div>
   
   <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" style="background-color: #37b6ff;" id="menu">
-    <div class="w3-col l6 w3-padding-large" style="display: flex; align-items: left; flex-direction: column;">
-      <h1 class="w3-center">Our Catering Menu</h1><br>
-      <h3><b>Meats:</b></h3>
+  <div style="background-color: #37b6ff; display:flex; align-items: center; justify-content: center;">
+    <div class="w3-col l6 w3-padding-large" style="display: flex; align-items: left; flex-direction: column; background-color: rgb(255, 255, 255); border-radius: 25px; margin: 5% 5% 5% 5%">
+      <h1 id="menu-large" class="w3-center" style="text-decoration: underline;">Our Catering Menu</h1><br>
+      <h3 id="menu-medium" ><b>Meats:</b></h3>
 
-      <h4 style="padding-left: 25px;">USDA Prime Brisket - $15 per person</h4>
-      <h4 style="padding-left: 25px;">USDA Choice Brisket - $13.50 per person</h4>
-      <h4 style="padding-left: 25px;">Pulled Pork - $12 per person</h4>
-      <p><em>*Selection of meats subject to availability.</em></p>
+      <h4 id="menu" style="padding-left: 25px;">USDA Prime Brisket - $15 per person</h4>
+      <h4 id="menu" style="padding-left: 25px;">USDA Choice Brisket - $13.50 per person</h4>
+      <h4 id="menu" style="padding-left: 25px;">Pulled Pork - $12 per person</h4>
+      <p id="menu"><em>*Selection of meats subject to availability.</em></p>
 
       <br>
 
-      <h3><b>Sides:</b></h3>
-      <h4 style="padding-left: 25px;">Mac & Cheese $6 per person</h4>
-      <h4 style="padding-left: 25px;">Baked Beans - $8 per person</h4>
-      <h4 style="padding-left: 25px;">Coleslaw - $4 per person</h4>
-      <h4 style="padding-left: 25px;">Cornbread - $2 per person</h4>
+      <h3 id="menu-medium"><b>Sides:</b></h3>
+      <h4 id='menu' style="padding-left: 25px;">Mac & Cheese - $6 per person</h4>
+      <h4 id='menu' style="padding-left: 25px;">Baked Beans - $6 per person</h4>
+      <h4 id='menu' style="padding-left: 25px;">Coleslaw - $4 per person</h4>
+      <h4 id='menu' style="padding-left: 25px;">Cornbread - $2 per person</h4>
 
-      <h3><b>Desserts:</b></h3>
-      <h4 style="padding-left: 25px;">German Chocolate Cake - $8 per person</h4>
-      <h4 style="padding-left: 25px;">Brownies - $4 per person</h4>
+      <h3 id="menu-medium"><b>Desserts:</b></h3>
+      <h4 id="menu" style="padding-left: 25px;">German Chocolate Cake - $8 per person</h4>
+      <h4 id="menu" style="padding-left: 25px;">Brownies - $4 per person</h4>
     </div>
 
-    <div class="w3-col l6 w3-padding-large hide-ipad w3-hide-small">
-      <img src="brisket.jpg" class="w3-round w3-image" alt="Menu" style="width:65%; height: 50%; border-radius: 25px;">
+    <div class="w3-col l6 hide-ipad w3-hide-small" style="padding: 2% 0% 0% 10%;">
+      <img src="brisket.jpg" class="w3-round w3-image" alt="Menu" style="width: 80%; border-radius: 25px;">
     </div>
   </div>
 
